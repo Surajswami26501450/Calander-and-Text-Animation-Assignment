@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.parent {
+    margin: 150px;
+    border: solid 2px black;
+    width: 320px;
+    height: 310px;
+
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.child1 {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: ;
+    column-gap: ;
+
+
+}
+
+.item {
+    background-color: rgba(112, 128, 144, 0.452);
+    height: 30px;
+    width: 40px;
+    padding-top: 5px;
+}
+
+.child2 {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px;
+
+}
+
+.box1 {
+
+    height: 30px;
+    width: 40px;
+    padding: 5px;
+}
+
+.box2 {
+
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.box3 {
+
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.box4 {
+
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.box5 {
+
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+/* this is a text animation css */
+.textanimation{
+    position: absolute;
+    left: 310px;
+    top: 50px;
+
+}
+.class {
+    border: solid 2px black;
+    color: rgb(15, 14, 14);
+    margin: 200px;
+    background-color: rgba(250, 250, 250, 0.932);
+    padding: 5px;
+    text-align: center;
+    height: 100px;
+    width: 220px;
+    font-size: 30px;
+    position: absolute;
+}
+
+.room21 {
+
+    background-color: skyblue;
+}
+
+.room22 {
+
+    background-color: red;
+
+}
+
+.room23 {
+
+    background-color: greenyellow;
+}
+
+.room2 {
+    /* margin-bottom: 45px; */
+    overflow: hidden;
+    height: 35px;
+
+
+}
+
+
+.room2 div {
+    margin-bottom: 45px;
+    animation: surajswami 5s ease-in-out backwards infinite;
+}
+
+@keyframes surajswami {
+    0% {
+        transform: translatey(-0%);
+    }
+
+    30% {
+        transform: translatey(-00%);
+    }
+
+    60% {
+        transform: translatey(-230%);
+    }
+
+    90% {
+        transform: translateY(-460%);
+    }
+}
